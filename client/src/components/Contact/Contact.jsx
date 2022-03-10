@@ -39,12 +39,12 @@ export const Contact = ({ contactRef, def, inputRef }) => {
         )
         .then(
           (response) => {
-            console.log("Email enviado! Pronto nos contactaremos!", response.status, response.text);
-            alert("SUCCESS!");
+            console.log("SUCCESS", response.status, response.text);
+            alert("Email enviado! Pronto nos contactaremos!");
           },
           (error) => {
             console.log("FAILED...", error);
-            alert("Erro, por favor intente de nuevo.", error);
+            alert("Error, por favor intente de nuevo.", error);
           }
         );
 
@@ -101,7 +101,7 @@ export const Contact = ({ contactRef, def, inputRef }) => {
               </div>
               <span>{errors && errors.email?.message}</span>
 
-              <div className={s.form__group}>
+              <div className={s.form__group} ref={inputRef}>
                 <textarea
                   {...register("message")}
                   type="input"
@@ -109,6 +109,7 @@ export const Contact = ({ contactRef, def, inputRef }) => {
                   placeholder="Mensaje"
                   className={s.form__field}
                   defaultValue={def}
+                  
                 />
                 <label className={s.form__label}>Mensaje</label>
               </div>
