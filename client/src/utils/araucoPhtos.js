@@ -1,4 +1,4 @@
-import arauco1 from "../media/resized/araucoResized/araucoRe1.jpg";
+import arauco1 from "../media/resized/araucoResized/araucoRe1re.jpg";
 import arauco4 from "../media/resized/araucoResized/araucoRe4.jpg";
 import arauco6 from "../media/resized/araucoResized/araucoRe6.jpg";
 import arauco7 from "../media/resized/araucoResized/araucoRe7.jpg";
@@ -11,14 +11,11 @@ import arauco13 from "../media/resized/araucoResized/araucoRe13.jpg";
 import arauco14 from "../media/resized/araucoResized/araucoRe14.jpg";
 import arauco16 from "../media/resized/araucoResized/araucoRe16.jpg";
 import arauco17 from "../media/resized/araucoResized/araucoRe17.jpg";
-import arauco18 from "../media/resized/araucoResized/araucoRe18.jpg";
 import arauco19 from "../media/resized/araucoResized/araucoRe19.jpg";
 import arauco20 from "../media/resized/araucoResized/araucoRe20.jpg";
 import arauco21 from "../media/resized/araucoResized/araucoRe21.jpg";
-import arauco22 from "../media/resized/araucoResized/araucoRe22.jpg";
 import arauco23 from "../media/resized/araucoResized/araucoRe23.jpg";
 import arauco24 from "../media/resized/araucoResized/araucoRe24.jpeg";
-import arauco25 from "../media/resized/araucoResized/araucoRe25.jpeg";
 import arauco26 from "../media/resized/araucoResized/araucoRe26.jpeg";
 import arauco27 from "../media/resized/araucoResized/araucoRe27.jpeg";
 import arauco28 from "../media/resized/araucoResized/araucoRe28.jpeg";
@@ -39,14 +36,11 @@ export const araucoImages = [
   arauco14,
   arauco16,
   arauco17,
-  arauco18,
   arauco19,
   arauco20,
   arauco21,
-  arauco22,
   arauco23,
   arauco24,
-  arauco25,
   arauco26,
   arauco27,
   arauco28,
