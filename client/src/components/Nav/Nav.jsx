@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Nav.module.scss";
-import logo from '../../media/logo/logoooo.png'
+import logo from '../../media/logo/alalaLogo.png'
 
 export const Nav = ({
   handleInicioClick,
