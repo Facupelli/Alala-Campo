@@ -53,7 +53,7 @@ export default function Common({inicioRef}) {
             <div className={s.icons}>
               <FontAwesomeIcon icon={faVolumeHigh} size="lg" />
             </div>
-            <p>Seguridad Alarma</p>
+            <p>Alarma monitoreada</p>
           </div>
 
           <div>

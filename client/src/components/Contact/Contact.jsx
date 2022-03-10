@@ -122,7 +122,7 @@ export const Contact = ({ contactRef, def, inputRef }) => {
           </div>
           <div className={s.email}>
             <p>
-              Por favor no dudes en consultarnos, ya se por mail o por teléfono.
+              Por favor no dudes en consultarnos, ya sea por mail o por teléfono.
             </p>
             <div>
               <FontAwesomeIcon icon={faEnvelope} size="lg" />
