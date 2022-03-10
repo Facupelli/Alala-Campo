@@ -4,11 +4,11 @@ import s from "./Contact.module.scss";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import emailjs from "@emailjs/browser";
-import apiKey from "../../utils/emailKey";
+// import apiKey from "../../utils/emailKey";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-emailjs.init(process.env.REACT_APP_USER_ID || "y401gs_b3pFauaDcB");
+emailjs.init(process.env.REACT_APP_USER_ID);
 
 const schema = yup.object().shape({
   name: yup.string().required().min(2),
@@ -33,8 +33,8 @@ export const Contact = ({ contactRef, def, inputRef }) => {
 
       emailjs
         .send(
-          process.env.REACT_APP_SERVICE_ID || apiKey.SERVICE_ID,
-          process.env.REACT_APP_TEMPLATE_ID || apiKey.TEMPLATE_ID,
+          process.env.REACT_APP_SERVICE_ID ,
+          process.env.REACT_APP_TEMPLATE_ID,
           data
         )
         .then(

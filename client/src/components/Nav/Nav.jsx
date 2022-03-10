@@ -1,5 +1,6 @@
 import React from "react";
 import s from "./Nav.module.scss";
+import logo from '../../media/logo/logoooo.png'
 
 export const Nav = ({
   handleInicioClick,
@@ -12,7 +13,7 @@ export const Nav = ({
       <div className={s.container1}>
         <div className={s.container2}>
           <div className={s.logo}>
-            <p>ALALA CAMPO</p>
+            <img src={logo} alt="logo" />
           </div>
           <div className={s.sections_buttons}>
             <div className="md:pr-8">
