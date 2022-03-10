@@ -109,7 +109,6 @@ export const Contact = ({ contactRef, def, inputRef }) => {
                   placeholder="Mensaje"
                   className={s.form__field}
                   defaultValue={def}
-                  ref={inputRef}
                 />
                 <label className={s.form__label}>Mensaje</label>
               </div>
