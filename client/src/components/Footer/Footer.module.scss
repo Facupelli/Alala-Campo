@@ -1,5 +1,9 @@
+@use "../../App.scss";
+
 .container {
-  padding: 1.2rem 1rem;
+  padding: 2rem 1.5rem;
+  // background-color: App.$primaryBG;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
   & p:first-child {
     font-weight: bold;
@@ -12,12 +16,13 @@
   & p:last-child {
     text-align: center;
     color: #707070;
+    font-size: .8rem;
   }
 
   a {
     text-decoration: none;
     &:visited {
-      color: #707070;
+      color: #d4a500;
     }
     &:hover {
       color: black;

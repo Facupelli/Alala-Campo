@@ -10,7 +10,7 @@ export const Footer = () => {
           href="https://www.linkedin.com/in/facundo-pellicer-full-stack-developer/"
           target="_blank"
         >
-          web: Facundo Pellicer
+          web Facundo Pellicer
         </a>
       </p>
     </div>
