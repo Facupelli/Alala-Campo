@@ -1,10 +1,10 @@
 @use "../../App.scss";
 
 .container {
-  padding: 2rem 1.5rem;
-  // background-color: App.$primaryBG;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
-    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 1rem 1.5rem;
+  background-color: #ffe899;
+  box-shadow: #ffe899 0px 1px 3px 0px,
+    #ffe382 0px 0px 0px 1px;
 
   & p:first-child {
     font-weight: bold;
@@ -16,22 +16,22 @@
 
   & p:last-child {
     text-align: center;
-    color: #d4a500;
+    color: #d4ac28;
     font-size: 0.8rem;
 
     @media only screen and (max-width: 600px) {
       margin-top: 1rem;
-      color: #d4a500;
+      color: #d4ac28;
     }
   }
 
   a {
     text-decoration: none;
     &:visited {
-      color: #d4a500;
+      color: #d4ac28;
     }
     &:hover {
-      color: black;
+      color: #ffc500;
     }
   }
 }
