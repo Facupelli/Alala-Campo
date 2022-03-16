@@ -2,7 +2,7 @@
 
 .container {
   padding: 1rem 1.5rem;
-  background-color: #ffe899;
+  background-color: #ffe68f;
   box-shadow: #ffe899 0px 1px 3px 0px,
     #ffe382 0px 0px 0px 1px;
 
@@ -16,22 +16,22 @@
 
   & p:last-child {
     text-align: center;
-    color: #d4ac28;
+    color: #bd9f37;
     font-size: 0.8rem;
 
     @media only screen and (max-width: 600px) {
       margin-top: 1rem;
-      color: #d4ac28;
+      color: #bd9f37;
     }
   }
 
   a {
     text-decoration: none;
     &:visited {
-      color: #d4ac28;
+      color: #bd9f37;
     }
     &:hover {
-      color: #ffc500;
+      color: black;
     }
   }
 }
