@@ -61,7 +61,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app_container">
       <Nav
         handleInicioClick={handleInicioClick}
         handleUbicacionClick={handleUbicacionClick}
