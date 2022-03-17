@@ -61,44 +61,46 @@ function App() {
   };
 
   return (
-    <div className="app_container">
+    <>
       <Nav
         handleInicioClick={handleInicioClick}
         handleUbicacionClick={handleUbicacionClick}
         handleConsultarNavClick={handleConsultarNavClick}
         handleCasasClick={handleCasasClick}
       />
-      <Place />
-      <div className="body">
-        <Common inicioRef={inicioRef} />
-        <p>CASAS</p>
-        <Casa1
-          name="arauco"
-          images={araucoImages}
-          handleClick={handleConsultarClick}
-          casasRef={casasRef}
-        />
-        <Casa1
-          name="coratina"
-          images={coratinaImages}
-          handleClick={handleConsultarClick}
-        />
-        <Casa1
-          name="aloreña"
-          images={aloreImages}
-          handleClick={handleConsultarClick}
-        />
+      <div className="app_container">
+        <Place />
+        <div className="body">
+          <Common inicioRef={inicioRef} />
+          <p>CASAS</p>
+          <Casa1
+            name="arauco"
+            images={araucoImages}
+            handleClick={handleConsultarClick}
+            casasRef={casasRef}
+          />
+          <Casa1
+            name="coratina"
+            images={coratinaImages}
+            handleClick={handleConsultarClick}
+          />
+          <Casa1
+            name="aloreña"
+            images={aloreImages}
+            handleClick={handleConsultarClick}
+          />
 
-        <Map ubicacionRef={ubicacionRef} />
+          <Map ubicacionRef={ubicacionRef} />
 
-        <Interes />
+          <Interes />
 
-        <Pics />
+          <Pics />
+        </div>
+
+        <Contact contactRef={contactRef} def={def} inputRef={inputRef} />
+        <Footer />
       </div>
-
-      <Contact contactRef={contactRef} def={def} inputRef={inputRef} />
-      <Footer />
-    </div>
+    </>
   );
 }
 
