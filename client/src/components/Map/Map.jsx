@@ -32,7 +32,7 @@ export default function Map({ ubicacionRef }) {
           >
             <TileLayer
               attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-              url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png"
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker position={[-31.57806, -68.60071]}>
               <Popup>ALALA CAMPO</Popup>

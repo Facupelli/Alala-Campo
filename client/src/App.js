@@ -91,9 +91,9 @@ function App() {
           />
 
           <Map ubicacionRef={ubicacionRef} />
-
-          <Interes />
-
+        </div>
+        <Interes />
+        <div className="body">
           <Pics />
         </div>
 
